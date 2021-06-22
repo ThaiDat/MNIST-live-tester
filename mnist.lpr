@@ -7,7 +7,7 @@ uses
     cthreads,
     {$ENDIF}{$ENDIF}
     Interfaces, // this includes the LCL widgetset
-    Forms, lazcontrols, main, BitmapToPython, PythonScript, PythonModel;
+    Forms, lazcontrols, main, BitmapToPython, PythonModel;
 
 {$R *.res}
 

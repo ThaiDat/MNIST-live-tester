@@ -119,7 +119,7 @@
         <PackageName Value="LCL"/>
       </Item4>
     </RequiredPackages>
-    <Units Count="5">
+    <Units Count="4">
       <Unit0>
         <Filename Value="mnist.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -137,15 +137,10 @@
         <UnitName Value="BitmapToPython"/>
       </Unit2>
       <Unit3>
-        <Filename Value="pythonscript.pas"/>
-        <IsPartOfProject Value="True"/>
-        <UnitName Value="PythonScript"/>
-      </Unit3>
-      <Unit4>
         <Filename Value="pythonmodel.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="PythonModel"/>
-      </Unit4>
+      </Unit3>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

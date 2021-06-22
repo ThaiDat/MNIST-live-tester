@@ -7,7 +7,7 @@ interface
 uses
     Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, StdCtrls,
 	Buttons, Menus, CheckBoxThemed, PythonEngine, PythonGUIInputOutput, BGRABitmap,
-	BitmapToPython, PythonScript, PythonModel, VarPyth;
+	BitmapToPython, PythonModel, VarPyth;
 
 const
     TargetImageWidth = 28;
