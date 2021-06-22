@@ -15,7 +15,7 @@ The zip file contains a standalone executable file. You can launch it directly w
 
 ## How to use
 
-This tool was written in Free Pascal. But, to test your pre-built classification model, we must load your model in python.
+This tool was written in Free Pascal. But, to test your pre-built classification model, we must load your model in python. So, Python 3 must be installed. Besides, some packages and modules `PIL`, `io`, `pickle` are required for this tool to work properly.
 
 To make your model compatible with this tool, your model must receive an array of MNIST images as input. More precisely, this tool will input your model with a NumPy array of shape (1, 28, 28). Your model must have the function 'predict' as this tool will benefit it to ask your model to work. Your model also has to output an array of numbers. This tool expects the result of shape (1, ) as the prediction.
 ![image](https://user-images.githubusercontent.com/18527312/122914158-8e365000-d384-11eb-9b4d-4ce4510dbfe9.png)
