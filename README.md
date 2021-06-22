@@ -24,4 +24,4 @@ To construct a model that satisfied the above restriction, you can make use of [
 
 One more critical note is that your model sometimes required your code to be successfully run. For example, you use some custom pre-processing in the form of some function or class definition. Your model relies on it to make a prediction, but pickle does not save those function/class definitions. You will be asked to import those definitions in a ".py" file.
 
-Till now, all are set. Enjoy my tool.
+Now, all are set. Enjoy my tool.
